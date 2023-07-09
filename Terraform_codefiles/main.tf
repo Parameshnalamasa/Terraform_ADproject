@@ -83,8 +83,8 @@ resource "azurerm_windows_virtual_machine" "main" {
   resource_group_name             = azurerm_resource_group.rg.name
   location                        = azurerm_resource_group.rg.location
   size                            = "Standard_B1s"
-  admin_username                  = "admin"
-  admin_password                  = "Key@123"
+  admin_username                  = "ParameshNalamasa"
+  admin_password                  = "Password@123!"
   network_interface_ids = [ azurerm_network_interface.nic1.id ]
 
   source_image_reference {
