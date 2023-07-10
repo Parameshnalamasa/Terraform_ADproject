@@ -7,8 +7,9 @@ terraform {
   }
 }
 
+# Configure the Microsoft Azure Provider
 provider "azurerm" {
-  # Configuration options
+  features {}  
 }
 
 terraform {
